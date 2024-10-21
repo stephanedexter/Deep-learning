@@ -1,0 +1,10 @@
+tensorflow>=2.10.0
+matplotlib>=3.5.3
+jupyterlab>=3.5.1
+pandas>=1.5.2
+scikit-learn>=1.2.0
+-e git+https://github.com/mwalmsley/galaxy_mnist@4c0ab8460e4d9fa7645286846fc9829a952fb2cc#egg=galaxyMNIST
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
